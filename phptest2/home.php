@@ -18,6 +18,12 @@
           <div class="box">
             <p>«We do not remember days, we remember moments.»</p>
           </div>
+          <div class="box">
+            <p>Nick</p>
+          </div>
+          <div class="box">
+            <p>emeil</p>
+          </div>
         </div>
       </div>
     </main>
