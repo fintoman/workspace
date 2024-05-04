@@ -1,0 +1,49 @@
+* {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(136, 133, 157);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.box {
+  background-color: rgb(193, 221, 179);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.form-box {
+  width: 400px;
+}
+
+.form-box header {
+  font-size: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.form-box form .field {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.form-box form .input input {
+  border-radius: 5px;
+}
+.btn {
+  background: rgb(191, 31, 116);
+  height: 25px;
+  border-radius: 10px;
+}

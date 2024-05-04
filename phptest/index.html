@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap"
+      rel="stylesheet"
+    />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="box form-box">
-            <header>Login</header>
-            <form action="" method="post">
-                <div class="filed input">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" id="username"  required>
-                </div>
+      <div class="box form-box">
+        <header>Login</header>
+        <form action="" method="post">
+          <div class="field input">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required />
+          </div>
 
-                <div class="filed input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password"  required>
-                </div>
+          <div class="field input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
 
-                <div class="filed">
-                
-                    <input type="submit" name="username" id="username"  required>
-                </div>
-            </form>
-        </div>
+          <div class="field">
+            <input
+              type="submit"
+              class="btn"
+              name="submit"
+              value="Login"
+              required
+            />
+          </div>
+          <div class="links">
+            Don't have account? <a href="reg.html">Registration</a>
+          </div>
+        </form>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
